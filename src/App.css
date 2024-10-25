@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(150, 150, 150);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.body{
+  width: 40vw;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+/* .addbtn{
+  width: ;
+} */
+.btn{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.btn input{
+  width: 70%;
+}
+h3{
+  margin: 0;
+  padding: 0;
+}
+.tasks{
+  padding-top: 20px;
+}
+.notodo{
+  display: flex;
+  justify-content: center;
+
+}
+/* list.jsx */
+.list{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.option{
+  /* margin-left: auto; */
+  display: flex;
+  align-items: center;
+}
+.data{
+  display: flex;
+  gap: 10px;
+}
